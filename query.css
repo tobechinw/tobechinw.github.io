@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1440px) {
+    .services .box {
+      margin-right: 5%;
+      width: 400px;
+    }
+  
+    .services .container {
+      margin: 5%;
+    }
+}
+  /*Big Tablets to 1200px (widths smaller than 1140 row)*/
+@media only screen and (max-width: 1200px) {
+    .hero-container {
+        flex-direction: column;
+    }
+    .hero-container img {
+        visibility: hidden;
+    }
+
+    .hero-container .text {
+        margin-top: 10%;
+        width: 100%;
+        padding: 30px;
+        font-size: 120%;
+    }
+
+    .services .container {
+        flex-direction: column;
+    }
+
+    .services .box {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+  
+}
+  
+  /*Small tablet to big tablet: 768px - 1023px*/
+@media only screen and (max-width: 1023px) {
+      .portfolio .row {
+          flex-direction: column;
+      }
+  
+      .portfolio-item {
+          width: 100%;
+          max-width: 65%;
+      }
+  
+      .skill {
+        
+          margin-right: 5%;
+      }
+}
+  
+  /*Small phones to small tablet: 481px - 767px*/
+@media only screen and (max-width: 767px) {
+      .hero-container .text {
+         
+          font-size: 110%;
+        }
+  
+        .skills .container{
+            flex-direction: column;
+        }
+  
+        .skill{
+            margin: 0;
+            margin-bottom: 50px;
+        }
+}
+  
+  /*Small phones from 0-480px*/
+@media only screen and (max-width: 480px) {
+      
+      .portfolio-item {
+          width: 100%;
+          
+      }
+  
+      nav {
+          font-size: 100%;
+      }
+  
+      nav ul li {
+          margin: 0;
+          margin-right: 10px;
+      }
+  
+      nav img{
+          visibility: hidden;
+      }
+  
+      .skills{
+          margin-top: 150px;
+      }
+  
+      .services .box {
+          margin-right: 5%;
+          width: 300px;
+        }
+}
